@@ -1,26 +1,18 @@
 {
-  "name": "react-click",
+  "name": "clicky-game",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
-    "@testing-library/user-event": "^7.2.1",
-    "gh-pages": "^2.1.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0"
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-scripts": "^3.3.0",
+    "remove-node-modules": "^1.7.6"
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -29,8 +21,9 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version"
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
     ]
-  },
-  "homepage": "https://ugo070.github.io/ClickyGame/"
+  }
 }
