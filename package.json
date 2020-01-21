@@ -8,6 +8,7 @@
     "react-scripts": "^3.3.0",
     "remove-node-modules": "^1.7.6"
   },
+  "homepage": "https://ugo070.github.io/ClickyGame/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
